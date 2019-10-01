@@ -3,6 +3,8 @@
 import { isYes } from '../isYes.js';
 const test = QUnit.test;
 
+// Only testing lower case because input is sanitized in app.js file
+
 test('should return true if the user says yes', function(assert) {
     //Arrange
     // Set up your parameters and expectations
