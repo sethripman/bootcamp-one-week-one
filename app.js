@@ -44,7 +44,11 @@ myButton.onclick = () => {
     // Add the user's name to the results
     const nameSpan = document.getElementById('name-value');
     nameSpan.textContent = name;
-    
+
+    // Add the results number to the results
+    const resultSpan = document.getElementById('correct-value');
+    resultSpan.textContent = numberCorrect;
+
     /* Stretch Goal - change the size of the hidden paragraph based on the result
     if (numberCorrect === 1)
         hideMe.classList.replace ('result-size', 'result-size-good');

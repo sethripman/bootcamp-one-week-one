@@ -6,11 +6,21 @@
 }
 
 .jeans {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 10em;
     font-style: oblique;
     color: red;
     background-color: burlywood;
     border: 1px dotted black;
+}
+
+.cool-photo {
+    padding: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 4px dotted gold;
+    background-color: antiquewhite;
 }
 
 .hidden {
