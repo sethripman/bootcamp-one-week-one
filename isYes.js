@@ -1,4 +1,6 @@
 export const isYes = (userInput) => {
-    if (userInput === 'yes') return true;
+    if (userInput === 'yes' || userInput === 'y') 
+        return true;
+    
     return false;
 };
