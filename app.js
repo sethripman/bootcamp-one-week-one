@@ -49,13 +49,13 @@ myButton.onclick = () => {
     const resultSpan = document.getElementById('correct-value');
     resultSpan.textContent = numberCorrect;
 
-    /* Stretch Goal - change the size of the hidden paragraph based on the result
-    if (numberCorrect === 1)
-        hideMe.classList.replace ('result-size', 'result-size-good');
-    if (numberCorrect === 2)
-        hideMe.classList.replace ('result-size', 'result-size-great');
-    if (numberCorrect === 3)
-        hideMe.classList.replace ('result-size', 'result-size-perfect');
-    */
+    // Add a rounded percent to the results
+    const percentSpan = document.getElementById('percent-value');
+    percentSpan.textContent = Math.floor(100 * (numberCorrect / 3));
 
+    // Stretch Goal - change the size of the hidden paragraph based on the result
+    if (numberCorrect === 3)
+        hideMe.classList.remove('result-size');
+    if (numberCorrect === 3)
+        hideMe.classList.add('result-size-perfect');
 };

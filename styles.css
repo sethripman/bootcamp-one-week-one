@@ -31,14 +31,6 @@
     font-size: .5em;
 }
 
-.result-size-good {
-    font-size: 1em;
-}
-
-.result-size-great {
-    font-size: 1.5em;
-}
-
 .result-size-perfect {
     font-size: 2em;
     background-color: gold;
