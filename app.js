@@ -10,3 +10,9 @@ myButton.onclick = () => {
     isCorrect(sanitizedUserAnswer);
 
 };
+
+// reveal the hidden paragraph
+function revealResults() {
+    const hideMe = document.getElementById('surprise');
+    hideMe.classList.remove('hidden');
+}
