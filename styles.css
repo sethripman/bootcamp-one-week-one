@@ -1,0 +1,46 @@
+.introduction {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.jeans {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10em;
+    font-style: oblique;
+    color: red;
+    background-color: burlywood;
+    border: 1px dotted black;
+}
+
+.cool-photo {
+    padding: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 4px dotted gold;
+    background-color: antiquewhite;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.result-size {
+    font-size: .5em;
+}
+
+.result-size-perfect {
+    font-size: 2em;
+    background-color: gold;
+}
+
+button {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5em;
+}
